@@ -1,0 +1,99 @@
+1:
+public class test {
+    public static void main(String[] args) {
+        String name = "Alex";
+        Integer age = 25;
+        String concatenation = name + age;
+        System.out.println(concatenation);
+    }
+}
+2:
+public class test {
+    public static void main(String[] args) {
+        double price = 19.99;
+        Integer quantity = 12;
+        double total = price * quantity;
+        System.out.println("Total : " + total);
+    }
+}
+3:
+public class test {
+    public static void main(String[] args) {
+        String name = "Halil";
+        Integer age = 27;
+        String job = "développeur";
+        System.out.println("Je m'appelle " + name + ", j'ai " + age + " ans et je suis " + job + ".");
+    }
+}
+4:
+public class test {
+    public static void main(String[] args) {
+        String str = "Hello World!";
+        int i = 0;
+        int length = str.length();
+
+        while (i < length) {
+            System.out.print(str.charAt(i));
+            if (i < length - 1) {
+                System.out.print(" ");
+            }
+
+            i++;
+        }
+    }
+} 
+5:
+public class test {
+    public static void main(String[] args) {
+        String str = "abcdefghijklmnopqrstuvwxyz";
+        int i = str.length() - 1;
+
+        while (i >= 0) {
+            System.out.print(str.charAt(i));
+            i--;
+        }
+    }
+}
+6:
+public class exercice6 {
+    public static void main(String[] args) {
+        String str = "abcdefghijklmnopqrstuvwxyz";
+        Integer i = str.length()-1;
+
+        while(i >= 0){
+
+            System.out.print(str.charAt(i));
+            i--;
+        }
+    }
+}
+7:
+public class test {
+    public static void main(String[] args) {
+        int multiplicateur = 5;
+
+        for (int i = 0; i <= 10; i++) {
+            int resultat = multiplicateur * i;
+            System.out.println(multiplicateur + " x " + i + " = " + resultat);
+        }
+    }
+}
+8:
+public class test {
+    public static void main(String[] args) {
+        String[]color={"bleu","rouge","jaune"};
+
+        for (String value : color) {
+            if(value == "bleu"){
+                System.out.println("La couleur préférée de Louis est le "+ value);
+            }
+            if(value == "rouge"){
+                System.out.println("La couleur préférée de Louis est le "+ value);
+            }
+            if(value == "jaune"){
+                System.out.println("La couleur préférée de Louis est le "+ value);
+            }
+
+        }
+    }
+}
